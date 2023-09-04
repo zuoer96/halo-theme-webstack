@@ -1,0 +1,24 @@
+{
+  "name": "halo-theme-webstack",
+  "version": "1.0.0",
+  "description": "移植自webstack主题，适配Halo2.x的webstack主题",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zuoer96/halo-theme-webstack.git"
+  },
+  "keywords": [
+    "webstack",
+    "halo2.0",
+    "theme"
+  ],
+  "author": "zuoer96",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zuoer96/halo-theme-webstack/issues"
+  },
+  "homepage": "https://github.com/zuoer96/halo-theme-webstack#readme"
+}

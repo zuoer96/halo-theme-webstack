@@ -1,17 +1,17 @@
 apiVersion: theme.halo.run/v1alpha1
 kind: Theme
 metadata:
-  name: theme-starter
+  name: theme-webstack
 spec:
-  displayName: Theme Starter
+  displayName: WebStack
   author:
-    name: halo-dev
-    website: "https://halo.run"
-  description: Halo 2.0 Theme base on Thymeleaf
-  logo: "https://halo.run/logo"
-  website: "https://halo.run"
-  repo: "https://github.com/halo-sigs/theme-starter"
-  settingName: "theme-starter-setting"
-  configMapName: "theme-starter-configMap"
-  version: "1.0"
-  require: "*"
+    name: zuoer96
+    website: "https://nbchen.com"
+  description: 移植自webstack主题，适配Halo2.x的webstack主题
+  logo: "https://nbchen.com/upload/avatar.jpg"
+  website: "https://nbchen.com?preview-theme=theme-webstack"
+  repo: "https://github.com/zuoer96/halo-theme-webstack"
+  settingName: "theme-webstack-setting"
+  configMapName: "theme-webstack-configMap"
+  version: "1.0.0"
+  require: ">=2.9.0"
