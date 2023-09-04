@@ -4,10 +4,17 @@ metadata:
   name: theme-webstack-setting
 spec:
   forms:
-    - group: style
-      label: 样式
+    - group: basics
+      label: 基础
       formSchema:
-        - $formkit: color
-          name: background_color
-          label: 背景颜色
-          value: "#f2f2f2"
+        - $formkit: text
+          name: siteTitle
+          label: 站点标题
+          placeholder: 请输入站点标题
+          value: 左耳
+        - $formkit: text
+          name: subTitle
+          label: 站点副标题
+          placeholder: 请输入站点标题
+          value: 导航
+    
