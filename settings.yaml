@@ -1,3 +1,4 @@
+# 主题设置定义文件，配置主题的设置项表单。
 apiVersion: v1alpha1
 kind: Setting
 metadata:
@@ -8,6 +9,11 @@ spec:
       label: 基础
       formSchema:
         - $formkit: text
+          name: siteUrl
+          label: 站点URL
+          placeholder: 请输入站点URL
+          value: http://nbchen.com
+        - $formkit: text
           name: siteTitle
           label: 站点标题
           placeholder: 请输入站点标题
@@ -17,4 +23,32 @@ spec:
           label: 站点副标题
           placeholder: 请输入站点标题
           value: 导航
-    
+        - $formkit: text
+          name: authorName
+          label: 博主昵称
+          value: zuoer
+          placeholder: 请输入博主昵称
+        - $formkit: attachment
+          name: LogoName
+          label: Logo名称
+          value: https://nbchen.com/upload/avatar.jpg
+        - $formkit: text
+          name: githubUrl
+          label: GitHub地址
+          value: https://github.com/zuoer96/halo-theme-webstack
+        - $formkit: attachment
+          name: expanded_logo
+          label: 展开logo
+          value: https://nbchen.com/upload/avatar.jpg
+        - $formkit: attachment
+          name: collapsed_logo
+          label: 收缩logo
+          value: https://nbchen.com/upload/avatar.jpg
+    # - group: navs
+    #   label: 导航分类
+    #   formSchema:
+    #     - $formkit: textarea
+    #       name: groups
+    #       label: 导航分类
+    #       help: 请输入想要展示的导航分组名称，可以填入多个分组名，以任意字符隔开
+    #       value: testgroup1

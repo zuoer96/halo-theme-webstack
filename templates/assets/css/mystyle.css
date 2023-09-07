@@ -1,0 +1,34 @@
+.sidebar-menu {
+    background: linear-gradient(130deg, rgb(36, 198, 220), rgb(84, 51, 255) 41.07%, rgb(255, 0, 153) 76.05%);
+}
+.sidebar-menu ul li a {
+    color: rgb(255 255 255) !important;
+    border-bottom: none !important;
+}
+.logo-env {
+    border-bottom: none !important;
+}
+.main-content {
+    background-color: #f1f3f9 !important;
+}
+.box2 {
+    border-style:solid !important;
+    border-width:2px !important;
+    border-image:linear-gradient(130deg, rgb(36, 198, 220), rgb(84, 51, 255) 41.07%, rgb(255, 0, 153) 76.05%) !important;
+    border-image-slice: 1 !important; 
+}  
+
+.box2:hover {
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+
+}
+
+.text-gray i {
+    color: black;
+    font-style: normal;
+    font-weight: bold;
+}
+.linecons-tag:before {
+    content: '\e80c';
+    color: rgb(255, 0, 153);
+}

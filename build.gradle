@@ -2,8 +2,8 @@ plugins {
   id 'java'
 }
 
-group 'com.zuoer'
-version '1.0.0'
+group 'com.zuoer.webstack'
+version '1.0.1'
 
 repositories {
   mavenCentral()
@@ -12,3 +12,4 @@ repositories {
 dependencies {
   implementation('org.thymeleaf:thymeleaf:3.0.12.RELEASE')
 }
+

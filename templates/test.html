@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html
+  xmlns:th="https://www.thymeleaf.org"
+  th:replace="~{layout :: html(head = null,content = ~{::content})}"
+>
+
+    <th:block th:fragment="content">
+   
+  
+    <!-- 获取小组信息 -->
+    <ul>
+        <li th:with="groups=${theme.config.navs.groups}">
+            测试导航小组1：[[${groups}]] |
+            <th:block th:if="${not #strings.isEmpty(groups)}">
+                <li th:each="group: ${navFinder.groupBy()}">
+                    [[${group.metadata.name}]] - 
+                    [[${group.spec.displayName}]]
+                    <!-- 获取导航链接信息 -->
+                    <ul>
+                        <li th:each="nav : ${group.navs}">
+                            导航信息：
+                            [[${nav.spec.displayName}]]  - 
+                            [[${nav.spec.description}]]  - 
+                            [[${nav.spec.url}]] - 
+                            [[${nav.spec.logo}]] - 
+                            [[${nav.spec.groupName}]]
+                        </li>
+                    </ul>
+                </li>
+            </th:block>
+        </li>
+    </ul>
+ 
+      
+    </th:block>
+</html>

@@ -25,17 +25,18 @@
 <table>
   <tr>
     <td>
-      <img src="https://cdn.jsdelivr.net/gh/zuoer96/CDN@master/theme-webstack.png"/>
+      <img src="https://cdn.jsdelivr.net/gh/zuoer96/CDN@master/theme-webstack-new.png"/>
     </td>
   </tr>
 </table>
+
 
 
 ## 🔥 预览
 
 | 站点名称 |                     站点地址                     |
 | :------: | :----------------------------------------------: |
-|   左耳   | https://nbchen.com/?preview-theme=theme-timeplus |
+|   左耳   | https://nbchen.com/?preview-theme=theme-webstack |
 
 ## 👋 简介
 
@@ -82,6 +83,14 @@
 2. 进入Halo后台 -> 外观 -> 主题 (左侧面板)
 3. 点击右上方 `安装` 按钮, 然后选择 `远程下载`
 4. 在文本框中粘贴仓库地址后点击下载
+
+### 🔌 插件依赖
+
+> 所有插件均为可选，不安装则不会出现对应功能。
+> 部分插件可能已经预设在 Halo 内。
+> 部分插件主题尚未适配。
+
+- 导航插件 [plugin-photos](https://github.com/zuoer96/halo-plugin-webstack)
 
 ## 📝 使用
 

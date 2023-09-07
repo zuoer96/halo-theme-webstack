@@ -1,17 +1,29 @@
 apiVersion: theme.halo.run/v1alpha1
 kind: Theme
 metadata:
+  # 主题的唯一标识
   name: theme-webstack
 spec:
+  # 显示名称
   displayName: WebStack
   author:
+    # 作者名称
     name: zuoer96
+    # 作者网站
     website: "https://nbchen.com"
+  # 主题描述
   description: 移植自webstack主题，适配Halo2.x的webstack主题
+  # 主题 Logo
   logo: "https://nbchen.com/upload/avatar.jpg"
+  # 主题网站
   website: "https://nbchen.com?preview-theme=theme-webstack"
+  # 主题托管地址
   repo: "https://github.com/zuoer96/halo-theme-webstack"
+  # 设置表单定义的名称，需要同时创建对应的 settings.yaml 文件
   settingName: "theme-webstack-setting"
+  # 设置持久化配置的 ConfigMap 名称
   configMapName: "theme-webstack-configMap"
-  version: "1.0.0"
+  # 主题版本
+  version: "1.0.1"
+  # 所需 Halo 的运行版本
   require: ">=2.9.0"
